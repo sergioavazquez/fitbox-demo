@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18d625a4e116b395ff950bbacb11fddd",
+    "revision": "a93f121d701116da3cd0c200066c9630",
     "url": "/fitbox-demo/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitbox-demo/static/css/2.bf79a5e1.chunk.css"
   },
   {
-    "revision": "7b4d268b088e2acdc893",
-    "url": "/fitbox-demo/static/css/main.f22b4d5a.chunk.css"
+    "revision": "b267b5209e9bbb536c58",
+    "url": "/fitbox-demo/static/css/main.c944ca2f.chunk.css"
   },
   {
     "revision": "de45b8580d5409345dbf",
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitbox-demo/static/js/2.118eb4c7.chunk.js.LICENSE"
   },
   {
-    "revision": "7b4d268b088e2acdc893",
-    "url": "/fitbox-demo/static/js/main.120cb4d0.chunk.js"
+    "revision": "b267b5209e9bbb536c58",
+    "url": "/fitbox-demo/static/js/main.0a5dd321.chunk.js"
   },
   {
     "revision": "7f7f37b5e96f4ecc81cb",
     "url": "/fitbox-demo/static/js/runtime-main.7b2756b8.js"
+  },
+  {
+    "revision": "3602c43c04e7b363b9b531aa92b9f543",
+    "url": "/fitbox-demo/static/media/github.3602c43c.svg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
