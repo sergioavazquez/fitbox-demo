@@ -1,3 +1,5 @@
+@import '../../utils/scss/index.scss';
+
 $mainColor:#0c1c3c;
 $lightColor: #1f91f3;
 $roadColor: #383838;
@@ -17,6 +19,25 @@ $roadSideColor: #252525;
   font-size: 60px;
 	color:  white;
 	text-align: center;
+}
+
+.github{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	bottom: 0;
+	left: 50%;
+	cursor: default;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity .3s ease-in-out;
+	
+	@include for-height(360px){
+		opacity: 1;
+		cursor: pointer;
+		pointer-events: all;
+	}
 }
 
 .rick{

@@ -5,6 +5,7 @@ import FitBox from 'react-fitbox';
 import SpriteAnimator from '../spriteAnimator';
 import rick from '../../static/rick-sprite.png'
 import morty from '../../static/morty-sprite.png'
+import { ReactComponent as Gh } from '../../static/github.svg';
 import './demo.scss';
 
 const SinglePageApp = ({ config }) => {
@@ -60,6 +61,9 @@ const SinglePageApp = ({ config }) => {
             <div className="shadow"></div>
           </div>
         </FitBox>
+        <div className="github">
+          <Gh onClick={() => { window.location.href = "https://github.com/sergioavazquez/fitbox" }} />
+        </div>
       </div>
     </div>
   )
