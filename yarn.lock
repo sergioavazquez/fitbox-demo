@@ -8708,10 +8708,10 @@ react-error-overlay@^6.0.4:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.4.tgz#0d165d6d27488e660bc08e57bdabaad741366f7a"
   integrity sha512-ueZzLmHltszTshDMwyfELDq8zOA803wQ1ZuzCccXa1m57k1PxSHfflPD5W9YIiTXLs0JTLzoj6o1LuM5N6zzNA==
 
-react-fitbox@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/react-fitbox/-/react-fitbox-0.1.5.tgz#93375b361e00ba13954acd069a9a332005601434"
-  integrity sha512-UH1+SDYzQ3RsgWZkAeNuwvIXdz2u2ZBOm1vQDEBTQ4PrZBUdsM/3FOtRPQV9BcR0dEqq5c3e6pyE5MM4VlTiIQ==
+react-fitbox@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/react-fitbox/-/react-fitbox-0.1.6.tgz#2d84b8de1e875d718d135ac20892063c46be68b0"
+  integrity sha512-popDRJ7sCfbVQlKG+iwHKBxHUU/XOHALBwUq3EVAH0XwYwXtiAnQMSeaU1xJ1lFlFmgRWaG+J0V5xt9y1CuR+A==
 
 react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.12.0"
