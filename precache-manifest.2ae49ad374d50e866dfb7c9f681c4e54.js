@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13482702e0029b42c022f8b26078fc58",
+    "revision": "18d625a4e116b395ff950bbacb11fddd",
     "url": "/fitbox-demo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitbox-demo/static/css/2.bf79a5e1.chunk.css"
   },
   {
-    "revision": "4785399d73d592cfe001",
+    "revision": "7b4d268b088e2acdc893",
     "url": "/fitbox-demo/static/css/main.f22b4d5a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitbox-demo/static/js/2.118eb4c7.chunk.js.LICENSE"
   },
   {
-    "revision": "4785399d73d592cfe001",
-    "url": "/fitbox-demo/static/js/main.c1bc78d7.chunk.js"
+    "revision": "7b4d268b088e2acdc893",
+    "url": "/fitbox-demo/static/js/main.120cb4d0.chunk.js"
   },
   {
     "revision": "7f7f37b5e96f4ecc81cb",
