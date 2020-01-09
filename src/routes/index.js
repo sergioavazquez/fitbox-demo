@@ -8,7 +8,7 @@ const Routes = ({ config }) => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" render={() => <SinglePageApp config={config} />} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} render={() => <SinglePageApp config={config} />} />
         {/* <Route path={ "/url" + ":uid/:token"} render={() => (<></>)} /> */}
         <Route path={NOT_FOUND_404} component={() => (<ErrorScreen error={{ code: 404, errorMsg: 'Page not found.' }} />)} />
         <Redirect to={NOT_FOUND_404} />
