@@ -1,0 +1,14 @@
+@import-normalize; /* bring in normalize.css styles */
+// @import '~@csstools/normalize.css';
+@import './utils/scss/index.scss';
+
+body {
+  background-color: $black;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  color: white;
+}

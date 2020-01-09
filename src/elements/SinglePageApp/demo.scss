@@ -1,0 +1,116 @@
+$mainColor:#0c1c3c;
+$lightColor: #1f91f3;
+$roadColor: #383838;
+$roadSideColor: #252525;
+
+.container{
+  height: calc(100% - 45px);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.text{
+	font-family: monospace;
+	text-shadow: 0px 5px 9px $mainColor;
+  bottom: 0px;
+  width: 100%;
+  font-size: 60px;
+	color:  white;
+	text-align: center;
+}
+
+.rick{
+	top: -20px;
+	left: 240px;
+}
+
+.morty{
+	top: 50px;
+	left: 120px;
+}
+
+@keyframes floating {
+  from { transform: translate(0, 0); }
+  65% { transform: translate(0, -7%); }
+  to { transform: translate(0, 0); }
+}
+
+.spa {
+	background: radial-gradient($lightColor, $mainColor);
+}
+.road
+{
+	position: relative;
+	width: 100%;
+	height: 60%;
+	top: 20px;
+	background: $roadColor;
+	transform-origin: bottom;
+	transform-style: preserve-3d;
+	transform: perspective(500px) rotateX(30deg);
+}
+.road:before
+{
+	content: '';
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background: linear-gradient(90deg,#fff 0%,#fff 70%, $roadColor 70%, $roadColor 100%);
+	background-size: 120px;
+	// animation: lines 1s linear infinite;
+}
+
+.moveFw:before{
+	animation: linesFw 1s linear infinite;
+}
+
+.moveBw:before{
+	animation: linesBw 1s linear infinite;
+}
+
+@keyframes linesFw
+{
+	0%{
+		background-position: 0px;
+	}
+	100%{
+		background-position: -120px;
+	}
+}
+
+@keyframes linesBw
+{
+	0%{
+		background-position: 0px;
+	}
+	100%{
+		background-position: 120px;
+	}
+}
+
+.road:after
+{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	background: $roadSideColor;
+  bottom: -30px;
+  left: 0;
+	transform-origin: top;
+	transform: perspective(500px) rotateX(-25deg);
+}
+.shadow
+{
+	position: absolute;
+	bottom: -93px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 95%;
+	height: 60px;
+	background: linear-gradient(#000,transparent);
+	opacity: 0.5;
+}

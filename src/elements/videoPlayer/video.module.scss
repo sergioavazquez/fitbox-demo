@@ -1,0 +1,45 @@
+@import '../../utils/scss/index.scss';
+
+.videoWrapper{
+  width: 100%;
+  position: relative;
+  outline: 0;
+}
+
+.playerInterface{
+  position: absolute;
+  height: calc(100% - 40px);
+  width: 100%;
+  z-index: $z-player;
+  opacity: 1;
+  transition: opacity .8s ease-in-out;
+
+  &.hide{
+    opacity: 0;
+  }
+}
+
+.statusBar{
+  position: absolute;
+  display: flex;
+  width: calc(100% - 40px);
+  height: 30px;
+  bottom: 50px;
+  padding: 5px 20px;
+  color: $white;
+}
+
+.playerIcons{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.videoPlayer{
+  width: 100%;
+  outline: 0;
+}
+
