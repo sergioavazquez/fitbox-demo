@@ -10,3 +10,7 @@ npm i react-fitbox
 Docs and repo are here:
 
 [Fitbox](https://github.com/sergioavazquez/fitbox)
+
+Sprites:
+
+https://www.spriters-resource.com/

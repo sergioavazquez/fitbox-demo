@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   background-color: white;
+  box-shadow: 0px 1px 20px 0px #0e0e0e;
   top: 0px;
   svg{
     height: 20px;
@@ -15,4 +16,13 @@
       margin-left: $tablet-margin;
     }
   }
+}
+
+.title{
+  font-family: monospace;
+  width: 100%;
+  color: #292929;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
 }

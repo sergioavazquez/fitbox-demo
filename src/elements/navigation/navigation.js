@@ -7,6 +7,7 @@ const Navigation = ({ config }) => {
   return (
     <div className={styles.nav}>
       <Logo />
+      <span className={styles.title}>react-fitbox</span>
     </div>
   )
 }

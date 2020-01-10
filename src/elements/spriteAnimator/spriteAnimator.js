@@ -22,6 +22,12 @@ const SpriteAnimator = ({ sprite, fps, size, frameSize, nFrames, spacer, classNa
       setSpriteLine(0);
       setCurrentFrame(0);
     }
+
+    return (() => {
+      if (timeouts.length > 0) {
+        timeouts.forEach(t => clearTimeout(t));
+      }
+    })
   }, [currentFrame, nFrames, timeouts, frameDelay, controller])
 
   const renderAnimationFrame = () => {
