@@ -45,7 +45,7 @@ const SpriteAnimator = ({ sprite, fps, size, frameSize, nFrames, spacer, classNa
       backgroundRepeat: 'no-repeat',
       backgroundSize: `${size.w}px ${size.h}px`,
       backgroundPosition: `${-framePosX}px ${-framePosY}px`,
-      transform: `scaleX(${flip})`
+      transform: `rotate(0.1deg) scaleX(${flip})`
     };
 
     return <div style={spriteStyles} className={className} />;

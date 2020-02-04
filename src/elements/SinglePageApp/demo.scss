@@ -32,7 +32,7 @@ $roadSideColor: #252525;
 	opacity: 0;
 	pointer-events: none;
 	transition: opacity .3s ease-in-out;
-	
+
 	@include for-height(360px){
 		opacity: 1;
 		cursor: pointer;
@@ -48,6 +48,12 @@ $roadSideColor: #252525;
 .morty{
 	top: 50px;
 	left: 120px;
+}
+
+.rick,
+.morty{
+	backface-visibility: hidden;
+	will-change: transform;
 }
 
 @keyframes floating {
