@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/fitbox-demo/static/css/main.687999c9.chunk.css",
-    "main.js": "/fitbox-demo/static/js/main.ec17cbfb.chunk.js",
-    "main.js.map": "/fitbox-demo/static/js/main.ec17cbfb.chunk.js.map",
-    "runtime-main.js": "/fitbox-demo/static/js/runtime-main.db4ea8a1.js",
-    "runtime-main.js.map": "/fitbox-demo/static/js/runtime-main.db4ea8a1.js.map",
-    "static/css/2.bf79a5e1.chunk.css": "/fitbox-demo/static/css/2.bf79a5e1.chunk.css",
-    "static/js/2.1c0e4245.chunk.js": "/fitbox-demo/static/js/2.1c0e4245.chunk.js",
-    "static/js/2.1c0e4245.chunk.js.map": "/fitbox-demo/static/js/2.1c0e4245.chunk.js.map",
+    "main.css": "/fitbox-demo/static/css/main.7fb443c9.chunk.css",
+    "main.js": "/fitbox-demo/static/js/main.200ec200.chunk.js",
+    "main.js.map": "/fitbox-demo/static/js/main.200ec200.chunk.js.map",
+    "runtime-main.js": "/fitbox-demo/static/js/runtime-main.c3c434b5.js",
+    "runtime-main.js.map": "/fitbox-demo/static/js/runtime-main.c3c434b5.js.map",
+    "static/css/2.fd392e87.chunk.css": "/fitbox-demo/static/css/2.fd392e87.chunk.css",
+    "static/js/2.fd43dadd.chunk.js": "/fitbox-demo/static/js/2.fd43dadd.chunk.js",
+    "static/js/2.fd43dadd.chunk.js.map": "/fitbox-demo/static/js/2.fd43dadd.chunk.js.map",
     "index.html": "/fitbox-demo/index.html",
-    "precache-manifest.a42aaf6a7f75532c74befef7d21e1eed.js": "/fitbox-demo/precache-manifest.a42aaf6a7f75532c74befef7d21e1eed.js",
+    "precache-manifest.b4701147380d569fa694decd8495b4bd.js": "/fitbox-demo/precache-manifest.b4701147380d569fa694decd8495b4bd.js",
     "service-worker.js": "/fitbox-demo/service-worker.js",
-    "static/css/2.bf79a5e1.chunk.css.map": "/fitbox-demo/static/css/2.bf79a5e1.chunk.css.map",
-    "static/css/main.687999c9.chunk.css.map": "/fitbox-demo/static/css/main.687999c9.chunk.css.map",
-    "static/js/2.1c0e4245.chunk.js.LICENSE.txt": "/fitbox-demo/static/js/2.1c0e4245.chunk.js.LICENSE.txt",
+    "static/css/2.fd392e87.chunk.css.map": "/fitbox-demo/static/css/2.fd392e87.chunk.css.map",
+    "static/css/main.7fb443c9.chunk.css.map": "/fitbox-demo/static/css/main.7fb443c9.chunk.css.map",
+    "static/js/2.fd43dadd.chunk.js.LICENSE.txt": "/fitbox-demo/static/js/2.fd43dadd.chunk.js.LICENSE.txt",
     "static/media/github.3602c43c.svg": "/fitbox-demo/static/media/github.3602c43c.svg",
     "static/media/logo.5d5d9eef.svg": "/fitbox-demo/static/media/logo.5d5d9eef.svg",
     "static/media/morty-sprite.png": "/fitbox-demo/static/media/morty-sprite.685431ef.png",
     "static/media/rick-sprite.png": "/fitbox-demo/static/media/rick-sprite.30c52267.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.db4ea8a1.js",
-    "static/css/2.bf79a5e1.chunk.css",
-    "static/js/2.1c0e4245.chunk.js",
-    "static/css/main.687999c9.chunk.css",
-    "static/js/main.ec17cbfb.chunk.js"
+    "static/js/runtime-main.c3c434b5.js",
+    "static/css/2.fd392e87.chunk.css",
+    "static/js/2.fd43dadd.chunk.js",
+    "static/css/main.7fb443c9.chunk.css",
+    "static/js/main.200ec200.chunk.js"
   ]
 }
